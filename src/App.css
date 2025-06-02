@@ -1,0 +1,66 @@
+h1, h2, h3, h4, h5, h6 {
+    color: maroon !important;
+}
+
+.text-maroon {
+    color: maroon
+}
+
+.full-bg {
+  background-color: blanchedalmond;
+  min-height: 100vh;
+}
+
+.object {
+    background: linear-gradient(to bottom right, #B8860B, #FFD700);
+}
+
+.hero-bg {
+  background-color: blanchedalmond;
+  color: maroon;
+  border: 5px;
+  font-weight: bold;
+  padding: 0.8rem, 2.5rem;
+  font-size: 1.2rem;
+}
+
+.navbar-link {
+  position: relative; /* Needed for the underline positioning */
+  display: inline-block; /* Ensures the underline width matches the text */
+  padding-bottom: 5px; /* Space between text and underline */
+  transition: all 0.3s ease-in-out; /* Smooth transition for underline */
+  overflow: hidden; /* This hides the initial underline */
+  text-decoration: none !important; /* Override default Bootstrap underline */
+}
+
+.navbar-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0; /* Starts hidden */
+  height: 2px; /* Underline thickness */
+  background-color: black; /* Underline color */
+  transition: width 0.3s ease-in-out; /* Smooth width transition */
+}
+
+.navbar-link.active::after {
+  width: 100%; /* Becomes full width when active */
+}
+
+/* Optional: Add a subtle hover effect for inactive links if desired */
+.navbar-link:not(.active):hover::after {
+  width: 50%; /* Underline appears halfway on hover for non-active links */
+  background-color: lightgray; /* Or any other hover color */
+}
+
+.tech-grid-container {
+    max-width: 700px; /* Limit the overall width of the grid for better visual balance */
+    margin: 0 auto; /* Center the entire grid of items */
+    /* d-flex, flex-wrap, justify-content-center, gap-3 are in JSX */
+}
+
+.icon-link:hover {
+  color: rgb(93, 217, 255); /* Change color on hover, or a lighter golden color */
+  transform: scale(1.2); /* Slightly enlarge on hover */
+}

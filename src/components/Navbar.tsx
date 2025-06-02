@@ -1,6 +1,6 @@
 import { useState, useEffect, type RefObject } from "react";
 import { FaGithub, FaLinkedin, FaDownload } from "react-icons/fa";
-import MyResume from "C:/Users/flori/Documents/Personal_Projects/personal-website/src/assets/Orlandos_Resume.pdf";
+import MyResume from "../assets/Orlandos_Resume.pdf";
 
 // --- Define the types for Navbar props ---
 interface NavbarProps {

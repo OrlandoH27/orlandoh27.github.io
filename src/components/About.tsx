@@ -6,18 +6,16 @@ const About = () => {
       {/* Added py-5 for vertical spacing */}
       <div className="container">
         {/* Added Bootstrap container for centering and max-width */}
-        <h2 className="display-4 mb-5 text-maroon text-center fw-bold">
-          About Me
-        </h2>
+        <h2 className="display-4 mb-5 text-center fw-bold">About Me</h2>
         <div className="row align-items-center">
           {/* Bootstrap row to arrange columns */}
           {/* Left Column - About Text */}
           <div className="col-md-8 mb-4 mb-md-0">
             {/* Column for text, takes 8/12 width on medium+ screens */}
-            <div className="p-4 rounded-3 shadow-sm object text-dark text-start">
+            <div className="p-4 rounded-3 shadow-sm object text-start text-white">
               <p className="lead fw-bold">
                 Hello! I'm Orlando Haye, a passionate Junior Computer Science
-                Major attending Texas A&M University, and I am from Houston, Tx.
+                Major attending Texas A&M University, and I am from Houston, TX.
                 I enjoy building or being a part of full stack projects and
                 constantly learning new technologies. <br /> <br />
                 If I want to have fun, you can find me watching and playing
@@ -25,10 +23,10 @@ const About = () => {
                 favorite genre is hip-hop), and playing video games.
                 <br /> <br />I have always wanted to be a developer since I was
                 very young, so I get excited at each step I take towards that
-                dream. Whether it be backend, frontend, fullstack, or game
-                development, challenging myself with programming problems, while
-                allowing my personality and creativity to seep through is always
-                exciting.
+                dream. Whether it be backend, frontend, fullstack, the cloud, or
+                game development, challenging myself with programming problems,
+                while allowing my personality and creativity to seep through is
+                always exciting.
                 <br /> <br />
                 I'm Orlando, and I could be your new favorite developer!
               </p>

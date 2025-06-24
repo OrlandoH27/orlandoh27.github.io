@@ -11,7 +11,7 @@ const Hero = () => {
         <div className="col-lg-6 col-md-8 col-sm-10">
           {/* Adjust these column classes to control width */}
           <div className="hero-bg border border-dark border-5 rounded-5">
-            <h1 className="fw-bold text-center display-2 text-maroon">
+            <h1 className="fw-bold text-center display-2 text-white">
               Orlando Haye
             </h1>
           </div>

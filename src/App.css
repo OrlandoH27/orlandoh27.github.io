@@ -1,23 +1,27 @@
-h1, h2, h3, h4, h5, h6 {
-    color: maroon !important;
+h2, h3, h4, h5, h6 {
+    color: #bef0ff !important;
 }
 
-.text-maroon {
-    color: maroon
+.text-cornflower-blue {
+    color: #bef0ff
 }
 
 .full-bg {
-  background-color: blanchedalmond;
   min-height: 100vh;
+  background-image: url('https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmthb3gyd3prbnp6cno5N3RreXYzNHc5ZWExbmFjeno1aHd3dnBlNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jaOXKCxtBPLieRLI0c/giphy.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #648EDF;
 }
 
 .object {
-    background: linear-gradient(to bottom right, #B8860B, #FFD700);
+    background: linear-gradient(to bottom right, #132087, #2847B0);
 }
 
 .hero-bg {
-  background-color: blanchedalmond;
-  color: maroon;
+  background-color: #648EDF;
+  color: white;
   border: 5px;
   font-weight: bold;
   padding: 0.8rem, 2.5rem;
@@ -61,6 +65,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .icon-link:hover {
-  color: rgb(93, 217, 255); /* Change color on hover, or a lighter golden color */
+  color: rgb(93, 217, 255) !important; /* Change color on hover, or a lighter golden color */
   transform: scale(1.2); /* Slightly enlarge on hover */
 }

@@ -43,7 +43,9 @@ const Contact = () => {
   return (
     <section id="contact" className="py-5 text-center">
       <div className="container">
-        <h2 className="display-4 mb-5 text-maroon fw-bold">Contact Me</h2>
+        <h2 className="display-4 mb-5 text-cornflower-blue fw-bold">
+          Contact Me
+        </h2>
 
         <div className="row justify-content-center">
           <div className="col-lg-7 col-md-9 col-sm-10">
@@ -56,7 +58,7 @@ const Contact = () => {
               <div className="mb-3">
                 <label
                   htmlFor="name"
-                  className="form-label text-maroon fs-5 text-start d-block"
+                  className="form-label text-cornflower-blue fs-5 text-start d-block"
                 >
                   Name
                 </label>
@@ -74,7 +76,7 @@ const Contact = () => {
               <div className="mb-3">
                 <label
                   htmlFor="email"
-                  className="form-label text-maroon fs-5 text-start d-block"
+                  className="form-label text-cornflower-blue fs-5 text-start d-block"
                 >
                   Email
                 </label>
@@ -92,7 +94,7 @@ const Contact = () => {
               <div className="mb-4">
                 <label
                   htmlFor="message"
-                  className="form-label text-maroon fs-5 text-start d-block"
+                  className="form-label text-cornflower-blue fs-5 text-start d-block"
                 >
                   Message
                 </label>
@@ -109,7 +111,7 @@ const Contact = () => {
               {/* Submit Button */}
               <button
                 type="submit"
-                className="text-maroon btn btn-dark btn-lg object contact-submit-button"
+                className="text-cornflower-blue btn btn-dark btn-lg object contact-submit-button"
                 disabled={status === "sending"} // Disable button while sending to prevent multiple submissions
               >
                 {status === "sending" ? "Sending..." : "Send Message"}{" "}

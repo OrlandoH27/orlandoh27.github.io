@@ -17,23 +17,23 @@ import {
 } from "react-icons/si";
 
 const techStackData = [
-  { icon: <SiPython size={40} color="Black" />, label: "Python" },
-  { icon: <FaJava size={40} color="Black" />, label: "Java" },
-  { icon: <SiCplusplus size={40} color="Black" />, label: "C++" },
-  { icon: <SiSharp size={40} color="Black" />, label: "C#" },
-  { icon: <SiHaskell size={40} color="Black" />, label: "Haskell" },
-  { icon: <SiR size={40} color="Black" />, label: "R Programming Language" },
-  { icon: <SiJavascript size={40} color="Black" />, label: "JavaScript" },
-  { icon: <SiHtml5 size={40} color="Black" />, label: "HTML" },
-  { icon: <SiCss3 size={40} color="Black" />, label: "CSS" },
-  { icon: <SiTypescript size={40} color="Black" />, label: "TypeScript" },
-  { icon: <FaReact size={40} color="Black" />, label: "React" },
-  { icon: <FaNodeJs size={40} color="Black" />, label: "Node.js" },
-  { icon: <SiFlask size={40} color="Black" />, label: "Flask" },
-  { icon: <SiFigma size={40} color="Black" />, label: "Figma" },
-  { icon: <SiBootstrap size={40} color="Black" />, label: "Bootstrap" },
-  { icon: <SiFormspree size={40} color="Black" />, label: "Formspree" },
-  { icon: <SiMongodb size={40} color="Black" />, label: "MongoDB" },
+  { icon: <SiPython size={40} color="#bef0ff" />, label: "Python" },
+  { icon: <FaJava size={40} color="#bef0ff" />, label: "Java" },
+  { icon: <SiCplusplus size={40} color="#bef0ff" />, label: "C++" },
+  { icon: <SiSharp size={40} color="#bef0ff" />, label: "C#" },
+  { icon: <SiHaskell size={40} color="#bef0ff" />, label: "Haskell" },
+  { icon: <SiR size={40} color="#bef0ff" />, label: "R Programming Language" },
+  { icon: <SiJavascript size={40} color="#bef0ff" />, label: "JavaScript" },
+  { icon: <SiHtml5 size={40} color="#bef0ff" />, label: "HTML" },
+  { icon: <SiCss3 size={40} color="#bef0ff" />, label: "CSS" },
+  { icon: <SiTypescript size={40} color="#bef0ff" />, label: "TypeScript" },
+  { icon: <FaReact size={40} color="#bef0ff" />, label: "React" },
+  { icon: <FaNodeJs size={40} color="#bef0ff" />, label: "Node.js" },
+  { icon: <SiFlask size={40} color="#bef0ff" />, label: "Flask" },
+  { icon: <SiFigma size={40} color="#bef0ff" />, label: "Figma" },
+  { icon: <SiBootstrap size={40} color="#bef0ff" />, label: "Bootstrap" },
+  { icon: <SiFormspree size={40} color="#bef0ff" />, label: "Formspree" },
+  { icon: <SiMongodb size={40} color="#bef0ff" />, label: "MongoDB" },
 ];
 
 const TechStack = () => {
@@ -44,7 +44,7 @@ const TechStack = () => {
         {techStackData.map(({ icon, label }, i) => (
           <div key={i} className="bg-light rounded object text-center p-3">
             {icon}
-            <div className="font-weight-bold">{label}</div>
+            <div className="font-weight-bold text-white">{label}</div>
           </div>
         ))}
       </div>

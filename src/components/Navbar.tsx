@@ -68,7 +68,7 @@ const Navbar = ({
       <div>
         <a
           href="#home"
-          className={`me-3 text-maroon navbar-link ${
+          className={`me-3 text-white navbar-link ${
             activeSection === "home" ? "active" : ""
           }`}
         >
@@ -76,7 +76,7 @@ const Navbar = ({
         </a>
         <a
           href="#about"
-          className={`me-3 text-maroon navbar-link ${
+          className={`me-3 text-white navbar-link ${
             activeSection === "about" ? "active" : ""
           }`}
         >
@@ -84,7 +84,7 @@ const Navbar = ({
         </a>
         <a
           href="#projects"
-          className={`me-3 text-maroon navbar-link ${
+          className={`me-3 text-white navbar-link ${
             activeSection === "projects" ? "active" : ""
           }`}
         >
@@ -92,7 +92,7 @@ const Navbar = ({
         </a>
         <a
           href="#skills"
-          className={`me-3 text-maroon navbar-link ${
+          className={`me-3 text-white navbar-link ${
             activeSection === "skills" ? "active" : ""
           }`}
         >
@@ -100,7 +100,7 @@ const Navbar = ({
         </a>
         <a
           href="#contact"
-          className={`me-3 text-maroon navbar-link ${
+          className={`me-3 text-white navbar-link ${
             activeSection === "contact" ? "active" : ""
           }`}
         >
@@ -110,7 +110,7 @@ const Navbar = ({
       <div>
         <a
           href="https://github.com/OrlandoH27"
-          className="me-3 text-maroon text-decoration-none icon-link"
+          className="me-3 text-white text-decoration-none icon-link"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -118,7 +118,7 @@ const Navbar = ({
         </a>
         <a
           href="https://www.linkedin.com/in/orlando-haye/"
-          className="me-3 text-maroon text-decoration-none icon-link"
+          className="me-3 text-white text-decoration-none icon-link"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -126,7 +126,7 @@ const Navbar = ({
         </a>
         <a
           href={MyResume}
-          className="me-3 text-maroon text-decoration-none icon-link"
+          className="me-3 text-white text-decoration-none icon-link"
           target="_blank"
           rel="noopener noreferrer"
         >

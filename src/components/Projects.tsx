@@ -33,8 +33,8 @@ const Projects = () => {
             <div className="h-100 p-3 bg-light rounded shadow-sm object">
               <h5>{title}</h5>
               <p
-                className="text-dark mb-0 border border-3 border-dark rounded-3"
-                style={{ backgroundColor: "blanchedalmond" }}
+                className="text-white mb-0 border border-3 border-dark rounded-3"
+                style={{ backgroundColor: "#648EDF" }}
               >
                 {description}
               </p>
@@ -43,7 +43,7 @@ const Projects = () => {
                   href={githubLink}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-left text-maroon icon-link"
+                  className="text-left text-white icon-link"
                 >
                   <FaGithub size={30} />
                 </a>

@@ -30,7 +30,7 @@ const About = () => {
                 allowing my personality and creativity to seep through is always
                 exciting.
                 <br /> <br />
-                I'm Orlando, and I could be your new
+                I'm Orlando, and I could be your new favorite developer!
               </p>
             </div>
           </div>
